@@ -59,7 +59,27 @@ npx @simpletoolsindia/project-generator
 
 ## Deployment
 
-This project is deployed to GitHub Pages.
+This project is deployed to GitHub Pages using GitHub Actions.
+
+### Local Development
+
+```bash
+npm install
+npm run dev
+# Open http://localhost:3000
+```
+
+### Build for Deployment
+
+```bash
+npm run build
+# Output in /out directory
+```
+
+## Related
+
+- [LLM Client Framework](https://github.com/simpletoolsindia/llm-client-framework) - Unified Java library for 12+ LLM providers
+- [Project Generator CLI](https://github.com/simpletoolsindia/project-generator) - Terminal tool for creating projects
 
 ## Tech Stack
 
