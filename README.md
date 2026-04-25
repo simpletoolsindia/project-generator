@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Project Generator
 
-## Getting Started
+> Instantly create Next.js projects with custom packages and configurations.
 
-First, run the development server:
+A web-based tool and CLI for scaffolding Next.js projects with your choice of packages and settings.
+
+## Features
+
+- **Web UI**: Select packages, configure settings, and download as ZIP
+- **CLI Tool**: Generate projects from terminal
+- **20+ Packages**: React Router, Prisma, NextAuth, Axios, OpenAI, and more
+- **Multiple Languages**: TypeScript and JavaScript support
+- **Tailwind CSS**: Built-in Tailwind configuration
+
+## Quick Start
+
+### Web UI
+
+1. Open [simpletoolsindia.github.io/project-generator](https://simpletoolsindia.github.io/project-generator)
+2. Select packages you need
+3. Configure project settings
+4. Download as ZIP
+
+### CLI
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Create a project with defaults
+npx @simpletoolsindia/project-generator my-app
+
+# Create with TypeScript and Tailwind
+npx @simpletoolsindia/project-generator my-app --typescript --tailwind
+
+# Create with specific packages
+npx @simpletoolsindia/project-generator my-app --packages prisma,next-auth,tailwindcss
+
+# Interactive mode
+npx @simpletoolsindia/project-generator
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Available Packages
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Web
+- React Router, Tailwind CSS, shadcn/ui, Framer Motion
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Database
+- Prisma, Drizzle ORM, Mongoose, better-sqlite3
 
-## Learn More
+### Authentication
+- NextAuth.js, Clerk, Lucia Auth, jsonwebtoken
 
-To learn more about Next.js, take a look at the following resources:
+### API & HTTP
+- Axios, Zod, tRPC, Hono
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Utilities
+- date-fns, Lodash, nanoid
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### AI & ML
+- OpenAI SDK, Anthropic SDK, LangChain.js
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is deployed to GitHub Pages.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Tech Stack
+
+- Next.js 15, React 19, Tailwind CSS 4, TypeScript
+
+## License
+
+MIT

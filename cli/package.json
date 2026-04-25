@@ -1,0 +1,17 @@
+{
+  "name": "@simpletoolsindia/project-generator",
+  "version": "1.0.0",
+  "description": "CLI tool to generate Next.js projects with custom packages",
+  "bin": {
+    "project-generator": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["nextjs", "project-generator", "cli", "scaffold"],
+  "author": "Simple Tools India",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
